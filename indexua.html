@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
+        body {
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+
+            font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+            line-height: 18px;
+            font-size: 12px;
+
+            color: #222;
+        }
+
+        h1, h2, h3, h4 {
+            margin: 0 0 15px 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 500%;
+        }
+
+        h2 {
+            font-size: 200%;
+        }
+
+        h3 {
+            font-size: 150%;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+        }
+
+        a {
+            color: #222;
+        }
+
+        /* ________________________________________________________ */
+        .rtl {
+            direction: rtl;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #main {
+            background: #fff;
+            width: 900px;
+            padding: 35px;
+            margin: 0 auto 15px auto;
+            overflow: hidden;
+
+            box-shadow: 0 0 6px #ccc;
+        }
+
+        #title {
+            margin: 0 0 30px 0;
+            line-height: 70px;
+            text-align: center;
+            color: #111;
+        }
+
+        #credit {
+            margin-bottom: 20px;
+            font-size: 11px;
+            color: #999;
+            text-align: center;
+        }
+
+        #credit a {
+            color: #999;
+        }
+
+        p label {
+            float: left;
+            margin-right: 10px;
+            min-width: 50px;
+        }
+
+        p label span.colon {
+            float: right;
+        }
+
+        p span.value {
+            float: left;
+            width: 80%;
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 10px;
+            padding-bttom: 20px;
+        }
+
+        .item {
+            margin: 0 0 20px 0;
+        }
+
+        .basic-info {
+            padding: 0 0 0 140px;
+
+        }
+
+        .basic-info p {
+            float: left;
+            width: 48%;
+            margin: 0 0 0px 0;
+        }
+
+        .basic-info p.full {
+            width: 100%;
+            float: none;
+        }
+
+        .basic-info .r {
+            float: right;
+        }
+
+        /* education _____________________________ */
+
+        .section .title {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .section span.value {
+            display: block;
+        }
+
+        .section h3 span.l, .section span.r {
+            width: 49%;
+            float: left;
+        }
+
+        .section span.r {
+            float: right;
+            text-align: right;
+        }
+
+        .section-education .school,
+        .section-work .job_title {
+            font-size: 120%;
+            display: block;
+            margin: 5px 0 5px 0;
+        }
+
+        /* ___ photo ___ */
+        #photo {
+            width: 160px;
+            height: 200px;
+            overflow: hidden;
+            float: left;
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+
+        #photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .header.photo {
+            margin-left: 190px;
+        }
+
+        .header.photo #title {
+            text-align: left;
+        }
+
+        .header.photo .basic-info {
+            float: none;
+            padding: 0;
+        }
+
+        @media screen and (max-width: 950px) {
+            body {
+                background: #fff;
+            }
+
+            #main {
+                box-shadow: none;
+                padding: 5px;
+            }
+        }
+
+        .tab {
+            display: inline-block;
+            margin-left: 35px;
+        }
+
+    </style>
+</head>
+<body class="lang-en ">
+
+<div id="main">
+    <div id="photo">
+        <img src="me.jpg" alt=""/>
+    </div>
+    <div class="header photo">
+
+        <h1 id="title">Вадим Шубкін</h1>
+        <div class="basic-info section">
+            <p class="email"><label>Пошта<span class="colon">:</span></label> <span class="value">vadym.shubkin@gmail.com</span>
+            </p>
+
+            <p class="website"><label>Лінкедін<span class="colon">:</span></label> <span class="value">
+                <a href="https://www.linkedin.com/in/vadym-shubkin/" rel="nofollow">https://www.linkedin.com/in/vadym-shubkin/</a></span>
+            </p>
+
+            <p class="phone"><label>Телефон<span class="colon">:</span></label> <span class="value">+38(093)8572727</span>
+            </p>
+
+            <p class="website"><label>GitHub<span class="colon">:</span></label> <span class="value">
+                <a href="https://github.com/shubicus/" rel="nofollow">https://github.com/shubicus/</a></span>
+            </p>
+
+            <p class="address"><label>Вік<span class="colon">:</span></label> <span class="value">41</span>
+            </p>
+
+            <p class="website"><label>GitLab<span class="colon">:</span></label> <span class="value">
+                <a href="https://gitlab.com/Shubicus/" rel="nofollow">https://gitlab.com/Shubicus/</a></span>
+            </p>
+            
+            <p class="address"><label>Адреса<span class="colon">:</span></label> <span class="value">Україна, Київ</span>
+            </p>
+
+            <div class="clear"></div>
+        </div><!-- basic-info //-->
+
+    </div>
+    <div class="clear"></div>
+
+
+    <div class="section section-objective">
+        <h2 class="title">Мета</h2>
+        <div class="set">
+            <div class="item">
+								<span class="info">Пошук позиції:<br/>
+                                    <ul>
+                                        <li>Автоматизатор тестування (QA Automation | SDET)</li>
+                                        <li>Автоматизація процесів за допомогою роботизації (RPA)</li>
+                                        <li>Розробник (Developer)</li>
+                                    </ul>
+                                     <br/>
+                                </span>
+            </div>
+        </div>
+    </div>
+    <div class="section section-work">
+        <h2 class="title">Досвід роботи</h2>
+        <div class="set">
+            <div class="item">
+                <h3><span class="company l">Перерва в кар’єрі</span>
+                    <span class="date r">09.2024 &mdash; _______</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор / Розробник</span>
+                <div class="info">
+                    <div>Технології: мова програмування Go та дотичні бібліотеки та фреймворки</div>
+                    <br/>
+                    <div>Обовʼязки:</div>
+                    <div>Вивчаю нову мову програмування поки вільний</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://gdnext.com/" rel="nofollow">GD Next GmbH</a></span>
+                    <span class="date r">07.2023 &mdash; 10.2024</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування</span>
+                <span class="project">Проєкт: Інструмент SWIFT аудиту</span>
+                <div class="info">
+                    <br>
+                    <div>Не перший, але єдиний Автоматизатор на проєкті.</div>
+                    <div>Департамент тестування: 1 Автоматизатор + 3 Мануальні тестувальники.</div>
+                    <div>Керівник: менеджер проєкту.</div>
+                    <div>Вимоги: апі та інтеграційне тестування.</div>
+                    <div>Технології: Java-21, REST-assured, JUnit5, Allure, Playwright, GitLab, GitHub, Azure, K8s.
+                    </div>
+                    <br>
+                    <div>Обовʼязки:</div>
+                    <div>Ревізія, діагностика та усунення основних проблем в процесах автоматизації тестування, підвищення надійністі тестів.
+                    </div>
+                    <div>Реінжиніринг фреймворків автоматизації шляхом впровадження сучасних інструментів та найкращих практик (PoC),
+                    <div>що призведе до швидшого виконання тестів.</div>
+                    </div>
+                    <div>Покращення інтеграцій CI/CD, зменшення кількість помилок під час тестових запусків та підвищення надійності.</div>
+                    <div>Створення масштабованої стратегії автоматизації тестування, та забезпечення довгострокової стійкісті.
+                    </div>
+                    <div>Навчання команди культурі якості та кращих практик в автоматизації тестуванні.
+                    </div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://www.sisense.com/" rel="nofollow">Sisense</a></span>
+                    <span class="date r">06.2019 &mdash; 04.2023</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування</span>
+                <span class="project">Проєкт: Веб інструмент Бізнес-аналітики</span>
+                <div class="info">
+                    <br>
+                    <div>Департамент тестування: 5-7 Автоматизаторів + 12-15 Мануальних тестувальники</div>
+                    <div>Керівник: керівник групи автоматизаторів.</div>
+                    <div>Вимоги: апі, фронтенд, інтеграційне, компонентне тестування.</div>
+                    <div>Технології: Java-8, JS/TS, Groovy, Serenity, Selenoid, Playwright, Jenkins, GitLab,
+                        TeamCity, AWS, K8s, JFrog.
+                    </div>
+                    <br>
+                    <div>Обов'язки:</div>
+                    <div>Розробка, підтримка та вдосконалення фреймворку автоматизації тестування.</div>
+                    <div>Співпраця з ДевОпс інженерами - оновлення Groovy скриптів та підтримка інфраструктури.</div>
+                    <div>Реалізація тест-кейсів відповідно до ʼBDDʼ підходу.</div>
+                    <div>Наставництво мануальних тестувальників практикам автоматизації.</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://www.aerticket.de/en" rel="nofollow">The AERTiCKET Group</a></span>
+                    <span class="date r">07.2018 &mdash; 06.2019</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування / Розробник</span>
+                <span class="project">Проєкт: Агрегатор авіа квитків</span>
+                <div class="info">
+                    <br>
+                    <div>Перший і єдиний Автоматизатор на проєкті.</div>
+                    <div>Керівник: менеджер проєкту.</div>
+                    <div>Вимоги: апі та інтеграційне тестування.</div>
+                    <div>Технології: Java-8, Groovy, JMeter, REST-assured, Sparkjava, ELK, GitLab.</div>
+                    <br>
+                    <div>Обов'язки:</div>
+                    <div>Розробка з нуля, підтримка та вдосконалення фреймворку автоматизації тестування.</div>
+                    <div>Тестування продуктивності та навантаження. Розробка апі сервіса.</div>
+                    <div>Реалізація інструментів для розробників.</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://www.linkedin.com/company/it-star/"
+                                               rel="nofollow">IT-Star</a></span>
+                    <span class="date r">08.2017 &mdash; 07.2018</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування / ДевОпс</span>
+                <span class="project">Проєкт: Інтернет магазини</span>
+                <div class="info">
+                    <br>
+                    <div>Перший і єдиний Автоматизатор на проєкті.</div>
+                    <div>Департамент тестування: 1 Автоматизатор + 3 Мануальних тестувальники.</div>
+                    <div>Керівник: менеджер проєкту.</div>
+                    <div>Вимоги: фронтенд та інтеграційне тестування.</div>
+                    <div>Технології: Java-8, Selenide, TestNG, ExtentReports, Jenkins.</div>
+                    <br>
+                    <div>Обов'язки:</div>
+                    <div>Розробка з нуля, підтримка та вдосконалення фреймворку автоматизації тестування.</div>
+                    <div>Виконання завдань ДевОпс, пов'язаних з процесом автоматизації. Повне керування інструментом Jenkins.</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://emotion.com.ua/" rel="nofollow">eMotion</a><span
+                        class="colon"> для </span>
+                <a href="https://globalbilgi.com.ua/en/" rel="nofollow">Global Bilgi</a></span>
+                    <span class="date r">09.2016 &mdash; 07.2017</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування</span>
+                <span class="project">Проєкт: Веб інструмент для кол-центрів</span>
+                <div class="info">
+                    <br/>
+                    <div>Перший і єдиний Автоматизатор на проєкті.</div>
+                    <div>Департамент тестування: 1 Автоматизатор + 1 Мануальний тестувальник.</div>
+                    <div>Керівник: керівник групи розробників.</div>
+                    <div>Вимоги: фронтенд та апі тестування.</div>
+                    <div>Технології: Java-8, Selenide, TestNG, ExtentReports.</div>
+                    <br>
+                    <div>Обов'язки:</div>
+                    <div>Розробка з нуля, підтримка та вдосконалення фреймворку автоматизації тестування.</div>
+                    <div>Співпраця з тестувальниками та розробниками.</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="item">
+                <h3><span class="company l"><a href="https://www.upwork.com/" rel="nofollow">Freelance/Upwork</a></span>
+                    <span class="date r">12.2015 &mdash; 08.2016</span>
+                </h3>
+                <div class="clear"></div>
+                <span class="job_title">Автоматизатор тестування</span>
+                <div class="info">
+                    <div>Технології: Java-8, Selenide, TestNG...</div>
+                    <br/>
+                    <div>Обов'язки:</div>
+                    <div>Функіональне тестування фронтенду</div>
+                    <br>
+                    <div><br/></div>
+                    <div><br/></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-qualifications">
+        <h2 class="title">Кваліфікація</h2>
+        <div class="set">
+            <div class="item">
+                <span class="info">
+                    <ul>
+                    <li>Сфери роботи: Фінтех, Бізнес-аналітика, Туризм, Інтернет комерція, Комунікація.</li>
+                    <li>Мови програмування: Java, Groovy, TypeScript, Go</li>
+                    <li>Інструменти інтеграції: GitLab, GitHub, Jenkins, TeamCity.</li>
+                    <li>Інструменти зберігання коду: Git, SVN.</li>
+                    <li>Операційні системи: Windows, Linux, Mac.</li>
+                    <li>Тест менеджмент системи: XRay, Jira, Redmine, TestRail.</li>
+                    <li>Інструменти розробки: Playwright, Selenium, Selenide, Serenity, Selenoid, Cucumber, Docker, JMeter, Spring, REST-assured,
+                        <br/><span class="tab"></span>OpenAPI/Swagger, Sparkjava, Elastic Stack (ELK), JUnit, TestNG, MySQL, MongoDB,
+                        <br/><span class="tab"></span>RabbitMQ, IBMMQ, K8s, Lens, AWS, JFrog, RPA tools, etc.</li>
+                </ul>
+                <br/>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="section section-courses">
+        <h2 class="title">Курси/Сертифікати</h2>
+        <div class="set">
+            <div class="item">
+                <span class="info">
+                    <ul>
+                        <li>AWS Well-Architected Foundations (AWS)</li>
+                        <li>Java Explorer (Oracle)</li>
+                        <li>Automation Essentials (Automation Academy by WorkFusion)</li>
+                        <li>Introduction to RPA Express (Automation Academy by WorkFusion)</li>
+                        <li>JMeter (QALight)</li>
+                        <li>Software Testing Fundamentals (QATestLab)</li>
+                        <li>Fundamentals of Software Testing (LITS [Lviv IT School])</li>
+                        <li>Java (Brain Academy, LLC)</li>
+                    </ul>
+                     <br/>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="section section-interests">
+        <h2 class="title">Інтереси</h2>
+        <div class="set">
+            <div class="item">
+                <ul>
+                    <li>Автоматизація бізнес-процесів та інших рутинних завдань.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
