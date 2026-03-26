@@ -4,7 +4,8 @@
     <title>Vadym Shubkin — CV</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vadym Shubkin — Test Automation Engineer with 10+ years of experience in building and scaling automation frameworks across Fintech, BI, Travel, E-Commerce, and Telecom domains.">
+    <meta name="description"
+          content="Vadym Shubkin — Test Automation Engineer with 10+ years of experience in building and scaling automation frameworks across Fintech, BI, Travel, E-Commerce, and Telecom domains.">
     <style>
         body {
             background: #f0f0f0;
@@ -99,15 +100,13 @@
 
         .basic-info p {
             float: left;
-            width: 48%;
+            width: 68%;
             margin: 0;
         }
 
         .basic-info .r {
             float: right;
         }
-
-        /* education _____________________________ */
 
         .section .title {
             border-bottom: 1px solid #ddd;
@@ -132,6 +131,14 @@
             font-size: 120%;
             display: block;
             margin: 5px 0 5px 0;
+        }
+
+        .section-work .project {
+            display: block;
+            font-style: italic;
+            font-size: 100%;
+            color: #555;
+            margin-bottom: 5px;
         }
 
         /* ___ photo ___ */
@@ -173,6 +180,25 @@
             }
         }
 
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 250%;
+            }
+
+            #photo {
+                float: none;
+                margin: 0 auto 15px;
+            }
+
+            .header.photo {
+                margin-left: 0;
+            }
+
+            .header.photo #title {
+                text-align: center;
+            }
+        }
+
         .section-work {
             margin-bottom: 60px;
         }
@@ -183,6 +209,10 @@
         }
 
         @media print {
+            * {
+                box-sizing: border-box;
+            }
+
             body {
                 background: #fff;
                 font-size: 11px;
@@ -190,11 +220,9 @@
 
             #main {
                 box-shadow: none;
-                max-width: 100%;
-                width: auto;
+                width: 100%;
                 margin: 0;
                 padding: 10px;
-                box-sizing: border-box;
                 overflow: visible;
             }
 
@@ -223,22 +251,22 @@
 
         <h1 id="title">Vadym Shubkin</h1>
         <div class="basic-info section">
+            <p class="address"><label>Address<span class="colon">:</span></label> <span class="value">Ukraine</span>
+            </p>
+
             <p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">vadym.shubkin@gmail.com</span>
+            </p>
+
+            <p class="website"><label>Linkedin<span class="colon">:</span></label> <span class="value">
+                <a href="https://www.linkedin.com/in/vadym-shubkin/" rel="nofollow">https://www.linkedin.com/in/vadym-shubkin/</a></span>
             </p>
 
             <p class="website"><label>GitLab<span class="colon">:</span></label> <span class="value">
                 <a href="https://gitlab.com/Shubicus/" rel="nofollow">https://gitlab.com/shubicus/</a></span>
             </p>
 
-            <p class="address"><label>Address<span class="colon">:</span></label> <span class="value">Ukraine</span>
-            </p>
-
             <p class="website"><label>GitHub<span class="colon">:</span></label> <span class="value">
                 <a href="https://github.com/shubicus/" rel="nofollow">https://github.com/shubicus/</a></span>
-            </p>
-
-            <p class="website"><label>Linkedin<span class="colon">:</span></label> <span class="value">
-                <a href="https://www.linkedin.com/in/vadym-shubkin/" rel="nofollow">https://www.linkedin.com/in/vadym-shubkin/</a></span>
             </p>
 
             <div class="clear"></div>
@@ -254,7 +282,8 @@
             <div class="item">
                 <p>Test automation engineer with 10+ years of experience specializing in building, auditing, and scaling
                     automation frameworks from scratch. Proven track record across Fintech, Business Intelligence,
-                    Travel, E-Commerce, and Telecom/Communications domains. Experienced in leading QA automation efforts, mentoring teams,
+                    Travel, E-Commerce, and Telecom/Communications domains. Experienced in leading QA automation
+                    efforts, mentoring teams,
                     and integrating testing into CI/CD pipelines using Java, TypeScript, Playwright, and modern
                     cloud infrastructure.</p>
             </div>
@@ -285,7 +314,8 @@
                     <li><strong>AI Tools:</strong> Claude, Cursor, Copilot, ChatGPT, Junie.</li>
                     <li><strong>Tools:</strong> Playwright, Selenium, Selenide, Serenity, Selenoid, Cucumber, JMeter, Spring, REST-assured,
                         <br/><span class="tab"></span>OpenAPI/Swagger, Sparkjava, Elastic Stack (ELK), JUnit, TestNG, MySQL, MongoDB,
-                        <br/><span class="tab"></span>RabbitMQ, IBMMQ, Artifactory, Docker, K8s, Lens, AWS, RPA tools.</li>
+                        <br/><span
+                                class="tab"></span>RabbitMQ, IBMMQ, Artifactory, Docker, K8s, Lens, AWS, RPA tools.</li>
                 </ul>
             </span>
             </div>
@@ -307,7 +337,7 @@
                     <div>Report manager: QA Manager, QA Lead</div>
                     <div>Requirements: Set up AI workflow; API, UI, Integration, Components testing</div>
                     <div>AQA TechStack: TypeScript, Playwright, AI-tools (Cursor, Claude, Copilot, ChatGPT)</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Lead codebase cleanup and technical debt reduction initiatives generated by AI</li>
                         <li>Design and implement architectural solutions to improve scalability and performance</li>
@@ -330,11 +360,11 @@
                     <div>Report manager: QA Lead.</div>
                     <div>Requirements: API, UI, Integration, Components testing.</div>
                     <div>AQA TechStack: TypeScript, Playwright, Vite, GitLab, Argo, MongoDB, AI-tools.</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
-                        <li>Design and implement architectural solutions to improve scalability and performance</li>
-                        <li>Maintain and enhance multiple automation frameworks and internal applications</li>
-                        <li>Support manual QA engineers in transitioning to and adopting automation practices</li>
+                        <li>Designed and implemented architectural solutions to improve scalability and performance</li>
+                        <li>Maintained and enhanced multiple automation frameworks and internal applications</li>
+                        <li>Supported manual QA engineers in transitioning to and adopting automation practices</li>
                     </ul>
                 </div>
                 <div class="clear"></div>
@@ -361,11 +391,14 @@
                     <div>Requirements: API and Integration testing.</div>
                     <div>AQA TechStack: Java-21, REST-assured, JUnit5, Allure, Playwright, GitLab, GitHub, Azure, K8s.
                     </div>
-                    <div>Responsibilities:</div>
+
                     <ul>
-                        <li>Diagnosed and resolved major issues in test automation processes, eliminated bottlenecks, and improved test reliability</li>
+                        <li>Diagnosed and resolved major issues in test automation processes, eliminated bottlenecks,
+                            and improved test reliability
+                        </li>
                         <li>Re-engineered automation frameworks by introducing modern tools and best practices</li>
-                        <li>Improved CI/CD integration, reduced test run failures, and increased deployment confidence</li>
+                        <li>Improved CI/CD integration, reduced test run failures, and increased deployment confidence
+                        </li>
                         <li>Established a scalable test automation strategy, ensuring long-term sustainability</li>
                         <li>Trained and mentored the team to establish a culture of quality in test automation</li>
                     </ul>
@@ -387,7 +420,7 @@
                     <div>AQA TechStack: Java-8, JS/TS, Groovy, Serenity, Selenoid, Playwright, Jenkins, GitLab,
                         TeamCity, AWS, K8s.
                     </div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Developed, maintained, and scaled the automated testing infrastructure</li>
                         <li>Collaborated with DevOps to update pipelines and implement Groovy scripting</li>
@@ -409,7 +442,7 @@
                     <div>Report manager: Project manager.</div>
                     <div>Requirements: API and Integration testing.</div>
                     <div>AQA TechStack: Java-8, Groovy, JMeter, REST-assured, Sparkjava, ELK, GitLab.</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Developed from scratch, maintained, and improved the QA Automation framework</li>
                         <li>Conducted performance and load testing using JMeter</li>
@@ -429,7 +462,7 @@
                 <span class="project">Project: E-Commerce (Web shops).</span>
                 <div class="info">
                     <div>AQA TechStack: Java-8, Selenide, TestNG, ExtentReports, Jenkins.</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Developed from scratch, maintained, and improved the QA Automation framework</li>
                         <li>Managed Jenkins CI/CD pipelines for test automation</li>
@@ -450,7 +483,7 @@
                 <span class="project">Project: Web tools for call-center.</span>
                 <div class="info">
                     <div>AQA TechStack: Java-8, Selenide, TestNG, ExtentReports.</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Developed from scratch the QA Automation framework</li>
                         <li>Designed and executed UI and API test automation for call center tools</li>
@@ -467,7 +500,7 @@
                 <span class="job_title">Software Test Automation Engineer</span>
                 <div class="info">
                     <div>AQA TechStack: Java-8, Selenide, TestNG, Maven, Git</div>
-                    <div>Responsibilities:</div>
+
                     <ul>
                         <li>Developed UI automation tests and implemented test frameworks for client projects</li>
                     </ul>
